@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location de véhicules</title>
+    <link rel="stylesheet" href="loc.css">
+</head>
+<body>
+    <header>
+        <div id="mySidenav" class="sidenav">
+            <a id="closeBtn" href="#" class="close">×</a>
+                <ul>
+                    <li><a href="#">Louer une voiture</a></li>
+                    <li><a href="#">Louer un utilitaire</a></li>
+                    <li><a href="#">Réserver un chauffeur</a></li>
+                    <li><a href="#">Découvrez nos agences</a></li>
+                    <li><a href="#">Mon Compte</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+        </div>
+    
+        <a href="#" id="openBtn">
+                <div class="burger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+                </div>
+          
+        </a>
+
+        
+        
+    </header>
+    <main>
+        <h1>Bienvenue à bord</h1>
+        <p>Location de voiture 24h/24 et 7j/7</p>
+
+        <form>
+            <input type="text" placeholder="Début de location">
+            <input type="text" placeholder="Fin de location">
+            <button id="valid">Valider ma rechercher</button>
+        </form>
+
+       
+        <div class="content">
+            <p>7 résultats</p>
+            <div class="voitures">
+                
+                <div id="car-1">
+                    <img src="vehicule1.png" alt="voiture noire">
+                    <button>Réserver et Payer</button>
+                </div>
+                <div id="car-2">
+                    <img src="vehicule2.png" alt="voiture bleue"> 
+                    <button>Réserver et Payer</button>
+                </div>
+                <div id="car-3">
+                    <img src="vehicule3.png" alt="voiture grise foncée">
+                    <button>Réserver et Payer</button>
+                </div>
+                <div id="car-4" >
+                    <img src="vehicule4.png" alt="voiture blanche">
+                    <button>Réserver et Payer</button>
+                </div>
+            </div>
+        
+        </div>
+        
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
